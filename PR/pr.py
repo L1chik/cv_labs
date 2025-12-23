@@ -9,9 +9,9 @@ import numpy as np
 # Пути
 # ============================================================
 
-IMAGES_DIR = Path("PR/Images")
-TEMPLATES_DIR = Path("PR/gosznak")
-RESULTS_DIR = Path("PR/Results")
+IMAGES_DIR = Path("./Images")
+TEMPLATES_DIR = Path("./gosznak")
+RESULTS_DIR = Path("./Results")
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
 
